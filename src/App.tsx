@@ -49,6 +49,7 @@ const App: Component = () => {
 
   function startRecording() {
     console.log("start recording...");
+    recordedBlobs = [];
     setRecordingStarted(true);
     setPlay(false);
     setAllowPlay(false);
